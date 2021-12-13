@@ -1,0 +1,199 @@
+/* tag selectors */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Merriweather, serif;
+  background-color: #DADDFC;
+}
+
+h1 {
+  margin: 50px auto 15px auto;
+  font-family: Sacramento, EB Garamond, marcellus, serif;
+  color: #FC997C;
+  font-size: 5.625rem;
+  padding-bottom: 0;
+  line-height: 1;
+}
+
+h2 {
+  font-family: Marcellus, Merriweather, serif;
+  font-size: 1.5rem;
+  color: #2E4C6D;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: Marcellus, Merriweather, serif;
+  color: #2E4C6D;
+}
+
+hr {
+  border-style: none;
+  border-top: 10px dotted #2E4C6D;
+  width: 10%;
+  margin: 50px auto 100px auto;
+}
+
+/* class selectors */
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.intro {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.75rem;
+}
+
+.middle-container {
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom-container {
+  padding: 1.5rem;
+  width: 100%;
+  text-align: center;
+  background-color: #396EB0;
+}
+
+.footer-link {
+  color: #FC997C;
+  font-size: 1rem;
+  font-family: Marcellus, Merriweather, serif;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.copyright-info {
+  color: #FC997C;
+  font-size: .75rem;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bitmoji-wave {
+  width: 50%;
+  border: 7.5px solid #2E4C6D;
+  border-radius: 100%;
+  background-color: #396EB0;
+}
+
+.unicorn-a {
+  position: absolute;
+  right: 400px;
+  top: 250px;
+  height: 150px;
+  width: auto;
+}
+
+.skills-images {
+  width: 25%;
+  border: 5px solid #2E4C6D;
+  border-radius: 100%;
+  background-color: #9764C7;
+  float: left;
+  margin: 30px;
+}
+
+.skills-image-design {
+  width: 25%;
+  border: 5px solid #2E4C6D;
+  border-radius: 100%;
+  float: right;
+  margin: 30px;
+  background-color: #9764C7;
+}
+
+.skills-image-celebrate {
+  width: 25%;
+  border: 5px solid #2E4C6D;
+  border-radius: 100%;
+  background-color: #9764C7;
+  float: right;
+  margin: 30px;
+}
+
+.contact-images {
+  height: 300px;
+  width: auto;
+  border: 5px solid #2E4C6D;
+  border-radius: 100%;
+  background-color: #396EB0;
+}
+
+.bottom-hr {
+  border-style: none;
+  border-top: 2px solid #2E4C6D;
+  width: 50%;
+  margin: 0 auto 2rem auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.profile {
+  width: 55%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.btn {
+  background: #396EB0;
+  background-image: -webkit-linear-gradient(top, #396EB0, #2E4C6D);
+  background-image: -moz-linear-gradient(top, #396EB0, #2E4C6D);
+  background-image: -ms-linear-gradient(top, #396EB0, #2E4C6D);
+  background-image: -o-linear-gradient(top, #396EB0, #2E4C6D);
+  background-image: linear-gradient(to bottom, #396EB0, #2E4C6D);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #FC997C;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+/* ID Selectors */
