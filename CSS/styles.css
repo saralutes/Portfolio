@@ -5,8 +5,8 @@ body {
   font-family: 'Merriweather', 'serif';
   background-color: #DADDFC;
   text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 h2, h3 {
@@ -188,7 +188,7 @@ hr {
 
 /* contact me section */
 .contact-me {
-  padding-top: 3rem;
+  padding: 3rem 10% 0 10%;
 }
 
 .contact-images {
