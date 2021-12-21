@@ -26,6 +26,17 @@ hr {
   opacity: 1;
 }
 
+@media (max-width: 900px) {
+  p, .intro {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .bitmoji-wave  {
+    width: 50%;
+  }
+}
+
 /* Headings */
 .big-heading {
   margin: 50px auto 15px auto;
