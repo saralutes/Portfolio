@@ -256,10 +256,17 @@ hr {
   color: #F21170;
   font-size: 2rem;
   font-family: 'Marcellus';
+  text-decoration: none;
 }
-.card-btn:hover {
+.project-img {
+  width: 80%;
+}
+.card-title:hover {
+  color: #FC997C;
+}
+/* .card-btn:hover {
   background-color: #396EB0;
-}
+} */
 .return-to-main {
   color: #FC997C;
   text-decoration: none;
