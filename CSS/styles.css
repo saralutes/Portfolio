@@ -207,11 +207,26 @@ hr {
   margin: 0 auto 2rem auto;
 }
 
+#Photo-Gallery {
+  padding-top: 4rem;
+}
+
 /* footer section */
 .bottom-container {
   padding: 1.5rem;
   width: 100%;
   background-color: #2E4C6D;
+}
+
+.text-link {
+  color: #FC997C;
+  font-size: 1rem;
+  font-family: 'Marcellus', 'Merriweather', 'serif';
+}
+
+.text-link:hover {
+  background-color: inherit;
+  color: #F21170;
 }
 
 .footer-link {
@@ -259,7 +274,7 @@ hr {
   text-decoration: none;
 }
 .project-img {
-  width: 75%;
+  width: 80%;
 }
 .card-title:hover {
   color: #FC997C;
