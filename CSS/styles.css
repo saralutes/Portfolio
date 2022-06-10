@@ -16,6 +16,12 @@ h2, h3 {
   font-weight: normal;
 }
 
+.cntr {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
 hr {
   border-style: none;
   border-top: 10px dotted;
@@ -24,6 +30,12 @@ hr {
   border-color: #2E4C6D;
   background-color: #DADDFC;
   opacity: 1;
+}
+
+.card {
+  margin-bottom: 1rem;
+  background-color: #DADDFC;
+  border-color: #DADDFC;
 }
 
 @media (max-width: 900px) {
@@ -147,11 +159,19 @@ hr {
   margin-bottom: 1rem;
 }
 
-/* Skills Secion */
-.skills {
+/* Skills and Projects Secion */
+.skills, .projects {
   padding-top: 3rem;
 }
 
+.projects {
+  margin: 0 auto .5rem auto;
+}
+
+.project-img {
+  height: 50%;
+  width: 100%;
+}
 .skills-image {
   width: 25%;
   border: 5px solid #2E4C6D;
