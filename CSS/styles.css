@@ -140,7 +140,7 @@ hr {
 
 /* Hello section */
 .profile {
-  width: 55%;
+  width: 85%;
   margin: auto;
   line-height: 1.5;
 }
@@ -194,12 +194,12 @@ hr {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
   }
 }
 
 .skill-row {
-  width: 50%;
+  width: 80%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 1.5;
